@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>SST Bags Solutions</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@300;400;500;600&display=swap');
+      
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+      .container-fluid {
+        margin: 0 auto;
+      }
+
+      .overlay-container {
+        position: relative;
+  
+        width: 100%;
+       
+        max-width: 1300px;
+      
+        overflow: hidden;
+      }
+
+      .overlay-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .overlay-text {
+        position: absolute;
+        padding-top: 400px;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: black;
+        padding: 20px;
+        width: 70%;
+      }
+
+      @media (max-width: 767px) {
+        .overlay-container img {
+          display: none;
+         
+        }
+
+        .overlay-text {
+          display: contents;
+          padding-top: 2000px;
+          color: rgb(0, 0, 0);
+          width: 100%;
+          background-color: gray;
+        }
+      }
+
+      h3 {
+        font-weight: 800;
+        letter-spacing: -0.4px;
+        text-align: center;
+        font-weight: 1000;
+        letter-spacing: -0.4px;
+        padding: 40px;
+        font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+      }
+
+      p {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        max-width: 1300px;
+        margin: auto;
+        padding-bottom: 20px;
+        font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+      }
+
+      .et_pb_row_8 {
+        background-blend-mode: multiply;
+        background-color: initial;
+        background-image: linear-gradient(180deg, rgba(230, 55, 60, 0.95) 0%, rgba(230, 55, 60, 0.95) 100%),
+          url(https://www.polybags.com/wp-content/uploads/2020/07/header-image-03.jpg);
+        border-radius: 2px 2px 2px 2px;
+        overflow: hidden;
+        max-width: 1200px;
+        height: 420px;
+      }
+    </style>
+
+
+  </head>
+
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SST Bags Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="products.html">Laminated Bags</a></li>
+                <li><a class="dropdown-item" href="#">PP Woven Bag</a></li>
+                <li><a class="dropdown-item" href="#">Printing</a></li>
+                <li><a class="dropdown-item" href="#">Handle Bag</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-danger rounded-pill" href="request.html">Request A Quote</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" style="background-color: rgb(220, 0, 0);" class="--bs-body-bg-rgb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="products.html">Products</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Laminated</li>
+        </ol>
+      </nav>
+
+
+
+
+
+
+
+
+      <div class="container justify-content-center mr-1 my-5">
+        <p><u>Laminated PP Woven Bag</u><p>
+      <div class="row g-0  position-center">
+        <div class="col-md-4 mb-md-3 p-md-2   mr-5">
+          <img src="src/Lb.jpg" class="w-100" alt="..." style="max-width: 100%;">
+          <span class="badge text-bg-success"></span>
+          <span class="badge text-bg-danger">Customizable</span>
+         <span class="badge text-bg-success">Printing Available</span>
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <form>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Name*</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Email*</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+              </div>
+            
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="phone">Phone number*</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+            
+                <div class="form-group col-md-6">
+                  <label for="quantity">Quantity</label>
+                  <input type="number" class="form-control" id="quantity" name="quantity" placeholder="e.g. 5,000">
+                </div>
+              </div>
+            
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="height">Height*</label>
+                  <input type="text" class="form-control" id="height" pattern="[0-9]+" title="Please enter only numbers" name="height" required>
+                </div>
+            
+                <div class="form-group col-md-6">
+                  <label for="width">Width*</label>
+                  <input type="text" class="form-control" id="width" name="width" required>
+                </div>
+              </div>
+            
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label>Choose Lamination Type*</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="lamination" id="laminated" value="laminated" required>
+                    <label class="form-check-label" for="laminated">Laminated</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="lamination" id="unlaminated" value="unlaminated" required>
+                    <label class="form-check-label" for="unlaminated">Unlaminated</label>
+                  </div>
+                </div>
+            
+                <div class="form-group col-md-6">
+                  <label>Choose Stitching Type*</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="stitching" id="singleStitch" value="single" required>
+                    <label class="form-check-label" for="singleStitch">Single Stitching</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="stitching" id="doubleStitch" value="double" required>
+                    <label class="form-check-label" for="doubleStitch">Double Stitching</label>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label>Choose Printing Option*</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="printing" id="printed" value="printed" required>
+                    <label class="form-check-label" for="printed">Printed</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="printing" id="plain" value="plain" required>
+                    <label class="form-check-label" for="plain">Plain</label>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-danger">Request Quote</button>
+            </form>
+            
+        </div>
+      </div>
+    </div>
+      
+     </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Product Quote Request</title>
+  <style>
+    .card-img {
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="customContainer mx-auto text-center">
+    <h3>Custom Products to Meet Your Needs</h3>
+    <p>
+      We manufacture and supply custom poly bags and plastic film products, including plastic liners, pallet covers,
+      polyethylene tubing, and SWS and CF sheeting. Our products are manufactured to your custom specifications and
+      according to the highest quality standards. With 2-3 week lead times, we are dedicated to supplying the custom
+      poly bag and plastic film products you need.
+    </p>
+  </div>
+ 
+  <div class="details-container nav nav-pills nav-fill nav-justified flex-sm-row pt-sm-5 "> <div class="container justify-content-center ">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active rounded-pill btn-danger mr-1 col-sm-11" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Types</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link btn-danger rounded-pill ml-1 col-sm-11" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Description</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <!-- On tables -->
+        <div class="wpb_text_column wpb_content_element my-5">
+          <div class="wpb_wrapper">
+            <ul class="list-group">
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Single Color</li>
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Checks Design</li>
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Multi-Color Strips</li>
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Natural/Transparant/Clear Bags</li>
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Gusseted Bags</li>
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Bags with PP/PE Liner</li>
+              <li class="list-group-item"><i class="fas fa-hand-pointer"></i> Laminated Bags</li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tab-pane fade my-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <table class="table table-bordered table-striped">
+            <tbody>
+                <tr>
+                    <td class="fw-bold" width="104">Width:</td>
+                    <td width="349">25 cm to 150 cm (10” to 60”)</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Length:</td>
+                    <td width="349">upto 150 cms or as per your requirement</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Mesh:</td>
+                    <td width="349">4×4 to 16×16</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Denier:</td>
+                    <td width="349">400 Denier to 1600 Denier</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Weight:</td>
+                    <td width="349">35 GSM to 140 GSM and above</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Lamination:</td>
+                    <td width="349">12 Micron to 50 Micron and above (10 GSM to 45 GSM)</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">UV stabilization:</td>
+                    <td width="349">200 HOURS TO 1600 HOURS (if required)</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Static Charge Elimination:</td>
+                    <td width="349">As per your requirement</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Strength:</td>
+                    <td width="349">As per your requirement</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Elongation:</td>
+                    <td width="349">As per your requirement</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Cutting:</td>
+                    <td width="349">Available in Heat cutting, Cold cutting & Zig zag cutting</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Stitching:</td>
+                    <td width="349">Single or Double fold With Single or Double Thread</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Perforation:</td>
+                    <td width="349">Available on sides, center or entire bag</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Printing:</td>
+                    <td width="349">Upto 6 Colors</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold" width="104">Packaging:</td>
+                    <td width="349">Bale press packing & Palletized packing available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
+</div></div>
+<div class="et_pb_row_8  container-fluid">
+  <h3>Not sure where to start? We're here to help!
+  </h3>
+  <p >There's a lot to consider when it comes to ordering poly bags, plastic liners, or rolls of film. The A-Pac team
+    is here for you. Let us know what you're looking for, and we'll help you determine which poly bag and plastic
+    product options are best for your application.
+  </p>
+  <div class="text-center pt-1 pt-sm-5">
+  <a class="btn btn-light btn-block rounded-pill center justify-content-center mx-auto col-sm-2" href="#">Send Us A Message</a>
+  </div>
+</div>
+
+
+  
+
+</body>
+
+
+
+
+<div class=" my-5">
+
+  <!-- Footer -->
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class=" my-5">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+      <!-- Left -->
+
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">SST Bags</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              We offering durable and customizable packaging solutions. With a commitment to innovation and excellence, SST Bags delivers reliable products tailored to meet the diverse needs of industries worldwide.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="products.html" class="text-white">Laminated PP Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">PP Woven Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Printed Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Handle Bags</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Erode, Tamil Nadu, India</p>
+            <p><i class="fas fa-envelope mr-3"></i> srisrinivasa@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 91 9842556767</p>
+            <p><i class="fas fa-print mr-3"></i> + 91 8637426762</p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Location</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1037.9267302888634!2d77.67040026958134!3d11.313989314347406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDE4JzUwLjQiTiA3N8KwNDAnMTUuOCJF!5e1!3m2!1sen!2sin!4v1701002980267!5m2!1sen!2sin" width="200" height="200" style="border:2px;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a 
+         >SST Bags | All rights reserved</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+  <!-- Footer -->
+
+</div>
+
+</html>
+
+
+      
+      
+  </body>
+</html>

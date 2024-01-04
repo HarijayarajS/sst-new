@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>SST Bags Solutions</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@300;400;500;600&display=swap');
+      
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+      .container-fluid {
+        margin: 0 auto;
+      }
+
+      .overlay-container {
+        position: relative;
+  
+        width: 100%;
+       
+        max-width: 1300px;
+      
+        overflow: hidden;
+      }
+
+      .overlay-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .overlay-text {
+        position: absolute;
+        padding-top: 400px;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: black;
+        padding: 20px;
+        width: 70%;
+      }
+
+      @media (max-width: 767px) {
+        .overlay-container img {
+          display: none;
+         
+        }
+
+        .overlay-text {
+          display: contents;
+          padding-top: 2000px;
+          color: rgb(0, 0, 0);
+          width: 100%;
+          background-color: gray;
+        }
+      }
+
+      h3 {
+        font-weight: 800;
+        letter-spacing: -0.4px;
+        text-align: center;
+        font-weight: 1000;
+        letter-spacing: -0.4px;
+        padding: 40px;
+        font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+      }
+
+      p {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        max-width: 1300px;
+        margin: auto;
+        padding-bottom: 20px;
+        font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+      }
+
+      .et_pb_row_8 {
+        background-blend-mode: multiply;
+        background-color: initial;
+        background-image: linear-gradient(180deg, rgba(230, 55, 60, 0.95) 0%, rgba(230, 55, 60, 0.95) 100%),
+          url(https://www.polybags.com/wp-content/uploads/2020/07/header-image-03.jpg);
+        border-radius: 2px 2px 2px 2px;
+        overflow: hidden;
+        max-width: 1200px;
+        height: 360px;
+      }
+    </style>
+  </head>
+
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SST Bags Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </button>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="products.html">Laminated Bags</a></li>
+                <li><a class="dropdown-item" href="ppwoven.html">PP Woven Bag</a></li>
+                <li><a class="dropdown-item" href="printed.html">Printing</a></li>
+                <li><a class="dropdown-item" href="handle.html">Handle Bag</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-danger rounded-pill" href="#">Request A Quote</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<!-- About 1 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5">
+    <div class="container">
+      <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+        <div class="col-12 col-lg-6 col-xl-5">
+          <img class="img-fluid rounded" loading="lazy" src="src/about_us.jpg" alt="About 1">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-7">
+          <div class="row justify-content-xl-center">
+            <div class="col-12 col-xl-11">
+              <h2 class="mb-3">Who Are We?</h2>
+              <p class="lead fs-5 text-secondary mb-3">Welcome to SST Bags Solution, your trusted partner in premium PP woven bag manufacturing. With a commitment to excellence and a passion for innovation, we stand as a leader in the industry, delivering top-quality packaging solutions tailored to meet your unique needs.</p>
+              <p class="mb-5">At SST Bags , we envision a world where packaging is not just a necessity but a symbol of reliability and sustainability. Our mission is to provide our clients with cutting-edge PP woven bags that not only safeguard their products but also contribute to a greener, more eco-friendly future.</p>
+              <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                <div class="col-12 col-md-6">
+                  <div class="d-flex">
+                    <div class="me-4 text-primary">
+                      
+                    </div>
+                    <div>
+                      <h2 class="h4 mb-3 ">Quality Assurance</h2>
+                      <p class="text-secondary mb-0">Quality is at the core of everything we do. We adhere to stringent quality control measures to guarantee that each PP woven bag leaving our facility meets the highest industry standards.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="d-flex">
+                    <div class="me-4 text-primary">
+                     </div>
+                      <div>
+                      <h2 class="h4 mb-3 ">Custom Solutions</h2>
+                      <p class="text-secondary mb-0">We specialize in custom PP woven bags, offering personalized solutions for unique packaging needs. From custom sizes to printing, our dedicated team brings your vision to life.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service 7 - Bootstrap Brain Component -->
+<section class="bsb-service-7 py-5 py-xl-8">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+          <h3 class="fs-5 mb-2 text-secondary text-center text-uppercase">Services</h3>
+          <h2 class="display-5 mb-5 mb-xl-9 text-center">We offer premier services where excellence meets affordability.</h2>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid bg-light border shadow">
+            <div class="row">
+              <div class="col-12 col-md-4 p-0">
+                <div class="card border-0 bg-transparent">
+                  <div class="card-body text-center p-5">
+                   
+                    <h4 class="fw-bold text-uppercase mb-4">SIZE AND QUALITY SELECTION</h4>
+                    <p class="mb-4 text-secondary">The initial stage of our production process is dedicated to selecting the appropriate size and ensuring the desired quality of the PP woven bags. This crucial step involves careful consideration of customer requirements, market trends, and quality standards.</p>
+                    <!-- <a href="#!" class="fw-bold text-decoration-none link-primary">
+                      Learn More
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                      </svg>
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-0 border-top border-bottom border-start border-end">
+                <div class="card border-0 bg-transparent">
+                  <div class="card-body text-center p-5">
+
+                    <h4 class="fw-bold text-uppercase mb-4">DESIGN SELECTION</h4>
+                    <p class="mb-4 text-secondary">Following the size and quality selection, our focus shifts to the design phase. In this stage, we employ a meticulous approach to choose the most suitable and visually appealing designs for the PP woven bags. This includes considering aesthetics, functionality, and customer preferences.</p>
+                    <!-- <a href="#!" class="fw-bold text-decoration-none link-primary">
+                      Learn More
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                      </svg>
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-0">
+                <div class="card border-0 bg-transparent">
+                  <div class="card-body text-center p-5">
+
+                    <h4 class="fw-bold text-uppercase mb-4">FINAL BAG ASSEMBLY</h4>
+                    <p class="mb-4 text-secondary">Once the design is selected and approved, we move on to the final phase of making the bags. This involves the actual assembly of the PP woven bags, where skilled workers bring the design to life. Cutting, stitching, and printing are executed with precision to ensure the bags meet the established standards.</p>
+                    <!-- <a href="#!" class="fw-bold text-decoration-none link-primary">
+                      Learn More
+
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
+  <div class="et_pb_row_8 container-fluid">
+    <h3>Not sure where to start? We're here to help!
+    </h3>
+    <p >There's a lot to consider when it comes to ordering poly bags, plastic liners, or rolls of film. The A-Pac team
+      is here for you. Let us know what you're looking for, and we'll help you determine which poly bag and plastic
+      product options are best for your application.
+    </p>
+    <div class="text-center pt-1 pt-sm-5">
+    <a class="btn btn-light btn-block rounded-pill center justify-content-center mx-auto" href="#">Send Us A Message</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+  
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+ <div class=" my-5">
+
+  <!-- Footer -->
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class=" my-5">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+      <!-- Left -->
+
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">SST Bags</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              We offering durable and customizable packaging solutions. With a commitment to innovation and excellence, SST Bags delivers reliable products tailored to meet the diverse needs of industries worldwide.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="products.html" class="text-white">Laminated PP Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">PP Woven Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Printed Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Handle Bags</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Erode, Tamil Nadu, India</p>
+            <p><i class="fas fa-envelope mr-3"></i> srisrinivasa@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 91 9842556767</p>
+            <p><i class="fas fa-print mr-3"></i> + 91 8637426762</p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Location</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1037.9267302888634!2d77.67040026958134!3d11.313989314347406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDE4JzUwLjQiTiA3N8KwNDAnMTUuOCJF!5e1!3m2!1sen!2sin!4v1701002980267!5m2!1sen!2sin" width="200" height="200" style="border:2px;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a 
+         >SST Bags | All rights reserved</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+</html>
+</html>

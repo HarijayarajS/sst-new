@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>SST Bags Solutions</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@300;400;500;600&display=swap');
+      
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+      .container-fluid {
+        margin: 0 auto;
+      }
+
+      .overlay-container {
+        position: relative;
+  
+        width: 100%;
+       
+        max-width: 1300px;
+      
+        overflow: hidden;
+      }
+
+      .overlay-container img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+      }
+
+      .overlay-text {
+        position: absolute;
+        padding-top: 400px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        width: 70%;
+      }
+
+      @media (max-width: 767px) {
+        .overlay-container img {
+          display: none;
+         
+        }
+
+        .overlay-text {
+          display: contents;
+          padding-top: 2000px;
+          color: rgb(0, 0, 0);
+          width: 100%;
+          background-color: gray;
+        }
+      }
+
+      h3 {
+        font-weight: 800;
+        letter-spacing: -0.4px;
+        text-align: center;
+        font-weight: 1000;
+        letter-spacing: -0.4px;
+        padding: 40px;
+        font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+      }
+
+      p {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        max-width: 1300px;
+        margin: auto;
+        padding-bottom: 20px;
+        font-family: 'Nunito Sans', Helvetica, Arial, Lucida, sans-serif;
+      }
+
+      .et_pb_row_8 {
+        background-blend-mode: multiply;
+        background-color: initial;
+        background-image: linear-gradient(180deg, rgba(230, 55, 60, 0.95) 0%, rgba(230, 55, 60, 0.95) 100%),
+          url(https://www.polybags.com/wp-content/uploads/2020/07/header-image-03.jpg);
+        border-radius: 2px 2px 2px 2px;
+        overflow: hidden;
+        max-width: 1200px;
+        height: 360px;
+      }
+      body{color: #000;overflow-x: hidden;height: 100%;background-image: url("https://www.authentic8.com/themes/authentic8/templates/dist/images/ladder-bg.png://i.imgur.com/GMmCQHC.png");background-repeat: no-repeat;background-size: 100% 100%}.card{padding: 30px 40px;margin-top: 60px;margin-bottom: 60px;border: none !important;box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)}.blue-text{color: #00BCD4}.form-control-label{margin-bottom: 0}input, textarea, button{padding: 8px 15px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}input:focus, textarea:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}.btn-block{text-transform: uppercase;font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}.btn-block:hover{color: #fff !important}button:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0}
+    </style>
+  </head>
+
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SST Bags Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </button>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="products.html">Laminated Bags</a></li>
+                <li><a class="dropdown-item" href="ppwoven.html">PP Woven Bag</a></li>
+                <li><a class="dropdown-item" href="printed.html">Printing</a></li>
+                <li><a class="dropdown-item" href="handle.html">Handle Bag</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact_us.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-warning rounded-pill" href="request.html">Request A Quote</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="overlay-container container-fluid pt-1 ">
+      <img src="https://www.authentic8.com/themes/authentic8/templates/dist/images/ladder-bg.png" class="img-fluid" alt="not" height="100" width="100%">
+      <div class="overlay-text ">
+        <h1 class="pt-5">Request a Quote for Your Next Business Bag Endeavor!</h1>
+        <p class="justify-content-start pt-1"> 
+          "Elevate your business with our premium bags – request a quote today and discover the perfect blend of style, functionality, and affordability!"</p>
+      </div>
+    </div>
+
+    <div class="customContainer mx-auto text-center">
+      <h3>Get a Free Customized Quote</h3>
+      <p style="max-width: 700px;">
+        Whether you’re gathering bids or are ready to place an order, you can request a free, customized quote using the form below. The more detailed your response, the more accurate the quote we’ll be able to provide.
+
+    </div>
+
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="card">
+                    <h5 class="text-center mb-4">Your Details</h5>
+                    <form class="form-card" onsubmit="event.preventDefault()">
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group  flex-column d-flex my-3 required"> <label class="form-control-label px-3 start">Company<span class="text-warning"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Enter your company name"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-warning"> *</span></label> <input type="text" id="fname" name="fname name" onblur="validate(1)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex "> <label class="form-control-label px-3">Last name<span class="text-warning"> *</span></label> <input type="text" id="fname" name="fname" onblur="validate(1)"> </div>
+
+                            <div class="form-group col-sm-12 flex-column d-flex"> <label class="form-control-label px-3">Address<span class="text-warning text-left"> *</span></label> <input type="text" id="fname" name="fname"  onblur="validate(1)"> </div>
+
+                            <div class="form-group col-sm-4 flex-column d-flex"> <label class="form-control-label px-3">City<span class="text-warning"> *</span></label> <input type="text" id="fname" name="fname"  onblur="validate(1)"> </div>
+
+                            <div class="form-group col-sm-4 flex-column d-flex"> <label class="form-control-label px-3"> State/Region<span class="text-warning"> *</span></label> <input type="text" id="fname" name="fname" onblur="validate(1)"> </div>
+                            <div class="form-group col-sm-4 flex-column d-flex"> <label class="form-control-label px-3">Zip<span class="text-warning"> *</span></label> <input type="text" id="lname" name="lname" onblur="validate(2)"> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Business email<span class="text-warning"> *</span></label> <input type="text" id="email" name="email" onblur="validate(3)"> </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Phone number<span class="text-warning"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
+                        </div>
+          
+                        <div class="row justify-content-end">
+                          <div class="form-group col-sm-6">
+                              <button type="submit" class="btn btn-warning">Send</button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid px-1 mx-auto">
+      <div class="row d-flex justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+              <div class="card">
+                  <h2 class="text-center mb-4">Item 1</h2>
+                  <form class="form-card needs-validation" novalidate>
+                      <div class="row justify-content-between text-left">
+                          <div class="form-group col-sm-4 flex-column d-flex">
+                              <label for="quantity1" class="form-control-label px-3">Quantity<span class="text-warning required">*</span></label>
+                              <input type="text" class="form-control" id="quantity1" name="quantity1" required>
+                              <div class="invalid-feedback">Please enter quantity.</div>
+                          </div>
+  
+                          <div class="form-group col-sm-4 flex-column d-flex">
+                              <label for="quantity2" class="form-control-label px-3">Quantity<span class="text-warning">*</span></label>
+                              <input type="text" class="form-control" id="quantity2" name="quantity2" required>
+                              <div class="invalid-feedback">Please enter quantity.</div>
+                          </div>
+  
+                          <div class="form-group col-sm-4 flex-column d-flex">
+                              <label for="price" class="form-control-label px-3">Request A Price<span class="text-warning">*</span></label>
+                              <input type="text" class="form-control" id="price" name="price" required>
+                              <div class="invalid-feedback ">Please enter price.</div>
+                          </div>
+                      </div>
+                      <div class="row justify-content-between text-left">
+                          <div class="form-group col-sm-6 flex-column d-flex">
+                              <label for="height" class="form-control-label px-3">Height<span class="text-warning">*</span></label>
+                              <input type="text" class="form-control" id="height" name="height" required>
+                              <div class="invalid-feedback">Please enter height.</div>
+                          </div>
+                          <div class="form-group col-sm-6 flex-column d-flex">
+                              <label for="width" class="form-control-label px-3">Width<span class="text-warning">*</span></label>
+                              <input type="text" class="form-control" id="width" name="width" required>
+                              <div class="invalid-feedback">Please enter width.</div>
+                          </div>
+                      </div>
+  
+                      <div class="mb-3">
+                          <select class="form-select my-3" aria-label="Products" required>
+                              <option value="" selected disabled hidden>Products</option>
+                              <option value="1">Laminated</option>
+                              <option value="2">PP woven</option>
+                              <option value="3">Un-Laminated</option>
+                          </select>
+  
+                          <select class="form-select my-3" aria-label="Type" required>
+                              <option value="" selected disabled hidden>Type</option>
+                              <option value="4">Single Color</option>
+                              <option value="5">Checks Design</option>
+                              <option value="6">Multi-Color Strips</option>
+                              <option value="7">Natural/Transparent/Clear Bags</option>
+                              <option value="8">Gusseted Bags</option>
+                              <option value="9">Bags with PP/PE Liner</option>
+                              <option value="10">Dual Color Printing</option>
+                          </select>
+  
+                          <label for="formFile" class="form-label">Any reference</label>
+                          <input class="form-control" type="file" id="formFile">
+                      </div>
+  
+                      <div class="row justify-content-end">
+                          <div class="form-group col-sm-6">
+                              <button type="submit" class="btn btn-warning">Send</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid px-1 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <div class="card">
+                <h2 class="text-center mb-4">Item 2</h2>
+                <form class="form-card needs-validation" novalidate>
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-4 flex-column d-flex">
+                            <label for="quantity1" class="form-control-label px-3">Quantity<span class="text-warning required">*</span></label>
+                            <input type="text" class="form-control" id="quantity1" name="quantity1" required>
+                            <div class="invalid-feedback">Please enter quantity.</div>
+                        </div>
+
+                        <div class="form-group col-sm-4 flex-column d-flex">
+                            <label for="quantity2" class="form-control-label px-3">Quantity<span class="text-warning">*</span></label>
+                            <input type="text" class="form-control" id="quantity2" name="quantity2" required>
+                            <div class="invalid-feedback">Please enter quantity.</div>
+                        </div>
+
+                        <div class="form-group col-sm-4 flex-column d-flex">
+                            <label for="price" class="form-control-label px-3">Request A Price<span class="text-warning">*</span></label>
+                            <input type="text" class="form-control" id="price" name="price" required>
+                            <div class="invalid-feedback ">Please enter price.</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label for="height" class="form-control-label px-3">Height<span class="text-warning">*</span></label>
+                            <input type="text" class="form-control" id="height" name="height" required>
+                            <div class="invalid-feedback">Please enter height.</div>
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label for="width" class="form-control-label px-3">Width<span class="text-warning">*</span></label>
+                            <input type="text" class="form-control" id="width" name="width" required>
+                            <div class="invalid-feedback">Please enter width.</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <select class="form-select my-3" aria-label="Products" required>
+                            <option value="" selected disabled hidden>Products</option>
+                            <option value="1">Laminated</option>
+                            <option value="2">PP woven</option>
+                            <option value="3">Un-Laminated</option>
+                        </select>
+
+                        <select class="form-select my-3" aria-label="Type" required>
+                            <option value="" selected disabled hidden>Type</option>
+                            <option value="4">Single Color</option>
+                            <option value="5">Checks Design</option>
+                            <option value="6">Multi-Color Strips</option>
+                            <option value="7">Natural/Transparent/Clear Bags</option>
+                            <option value="8">Gusseted Bags</option>
+                            <option value="9">Bags with PP/PE Liner</option>
+                            <option value="10">Dual Color Printing</option>
+                        </select>
+
+                        <label for="formFile" class="form-label">Any reference</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="row justify-content-end">
+                        <div class="form-group col-sm-6">
+                            <button type="submit" class="btn btn-warning">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="et_pb_row_8 container-fluid">
+      <h3>Not sure where to start? We're here to help!
+      </h3>
+      <p >There's a lot to consider when it comes to ordering poly bags, plastic liners, or rolls of film. The A-Pac team
+        is here for you. Let us know what you're looking for, and we'll help you determine which poly bag and plastic
+        product options are best for your application.
+      </p>
+      <div class="text-center pt-1 pt-sm-5">
+      <a class="btn btn-light btn-block rounded-pill center justify-content-center mx-auto" href="#">Send Us A Message</a>
+      </div>
+    </div>
+  </body>
+
+
+
+
+
+
+
+
+
+  
+
+  
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+ <div class=" my-5">
+
+  <!-- Footer -->
+ <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class=" my-5">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+      <!-- Left -->
+
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">SST Bags</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              We offering durable and customizable packaging solutions. With a commitment to innovation and excellence, SST Bags delivers reliable products tailored to meet the diverse needs of industries worldwide.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="products.html" class="text-white">Laminated PP Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">PP Woven Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Printed Bags</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Handle Bags</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Erode, Tamil Nadu, India</p>
+            <p><i class="fas fa-envelope mr-3"></i> srisrinivasa@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 91 9842556767</p>
+            <p><i class="fas fa-print mr-3"></i> + 91 8637426762</p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Location</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1037.9267302888634!2d77.67040026958134!3d11.313989314347406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDE4JzUwLjQiTiA3N8KwNDAnMTUuOCJF!5e1!3m2!1sen!2sin!4v1701002980267!5m2!1sen!2sin" width="200" height="200" style="border:2px;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a 
+         >SST Bags | All rights reserved</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+</html>
+</html>
